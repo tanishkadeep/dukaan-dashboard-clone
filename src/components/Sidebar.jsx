@@ -3,7 +3,7 @@ import nishyan from "../assets/nishyan.svg";
 
 export const Sidebar = () => {
   return (
-    <div className="h-screen bg-[#1E2640] w-[14.6%]  text-white">
+    <div className="h-screen bg-[#1E2640] w-[14.6%] text-white fixed">
       <div className="flex items-center mb-7 pl-4 pt-4">
         <img src={nishyan} className="h-" alt="logo" />
         <div className="pl-3 pr-12">
