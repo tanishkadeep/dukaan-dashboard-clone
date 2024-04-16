@@ -75,7 +75,7 @@ export const TopBar = () => {
               height="5px"
               viewBox="0 0 96.154 96.154"
               xml:space="preserve"
-              className="h-5 w-5"
+              className="h-4 w-4"
             >
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
               <g
