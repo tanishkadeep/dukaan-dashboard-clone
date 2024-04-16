@@ -57,10 +57,18 @@ function App() {
             Transactions | This Month
           </div>
           <div className="flex mb-5">
-            <Button title={"Payouts"} number={22}/>
+            <Button title={"Payouts"} number={22} />
             <Button title={"Refunds"} number={6} selected={true} />
           </div>
-          <Table/>
+          <Table />
+          <div className="flex justify-center items-center mt-10 font-medium text-[#6B7280]">
+            Made with <span className="text-red-500 px-1.5 text-xl">❤️</span> by
+            <a href="https://github.com/tanishkadeep">
+              <span className="underline pl-2 font-extrabold">
+                Tanishka Deep
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
